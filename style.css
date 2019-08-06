@@ -40,7 +40,7 @@ h2 {
      font-size: 2em;
 }
 .top-banner {
-     background: url(img/banner/home-banner.png) no-repeat scroll center center;
+     background: url(img/home-banner.png) no-repeat scroll center center;
 }
 .side-img{
     width: 50%;
@@ -64,9 +64,10 @@ h2 {
     margin-left: 100px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .half-width{
+        flex:0 0 100%;
         max-width: 100%;
-        color:red;
+        margin-bottom: 20px;
     }
 }
