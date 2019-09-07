@@ -1,13 +1,17 @@
- body {
-     line-height: 26px;
+.purple-color {
+    color: #8845f4;
+}
+body {
      font-family: sans-serif;
      color: #777777;
+     line-height: 26px;
 }
 a{
     text-decoration: none;
 }
 .container{
     padding-left:5%;
+    display: inline-block;
 }
 .half-width{
     width:50%;
@@ -26,16 +30,14 @@ h1{
     width: 50%;
     padding-left: 25%;
 }
-.bio-area{
+.experiences {
     padding: 5%;
+    background-color: rgb(238, 251, 255);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
 }
-.education {
-     background-color: rgb(238, 251, 255);
-     border-radius: 20px;
-     padding: 30px;
-     margin: 10px;
-}
-.edu-item {
+.experience-item {
     padding: 10px;
     border-left: 1px solid rgba(137, 130, 247, .2)
 }
